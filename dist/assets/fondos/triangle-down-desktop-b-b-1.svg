@@ -1,4 +1,4 @@
 <svg width="1280" height="48" viewBox="0 0 1280 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="48" transform="matrix(1 0 0 -1 0 48)" fill="white"/>
+  <rect width="1280" height="48" transform="matrix(1 0 0 -1 0 48)" fill="#efeff0"/>
   <path d="M0 0V48H1280L0 0Z" fill="#0C0B0B"/>
 </svg>
