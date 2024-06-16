@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "pdvId": 1,
+    "name": "Profesor",
+    "active": true
+  },
+  {
+    "id": 2,
+    "pdvId": 2,
+    "name": "Directivo",
+    "active": true
+  },
+  {
+    "id": 3,
+    "pdvId": 3,
+    "name": "Apoderado",
+    "active": true
+  },
+  {
+    "id": 4,
+    "pdvId": 4,
+    "name": "Orientador",
+    "active": true
+  },
+  {
+    "id": 5,
+    "pdvId": 5,
+    "name": "Otro",
+    "active": true
+  }
+]

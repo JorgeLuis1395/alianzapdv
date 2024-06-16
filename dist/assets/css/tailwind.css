@@ -52,25 +52,25 @@
   /* Header */
 
   header .menus {
-    @apply fixed top-0 z-[30] h-screen w-full max-w-sm gap-3 bg-[#e6e6e6] transition-all duration-500 ltr:-right-full rtl:-left-full dark:bg-gray-dark lg:static lg:h-auto lg:max-w-none lg:bg-transparent  dark:lg:bg-transparent;
+    @apply fixed top-0 z-[30] h-screen w-full max-w-sm gap-3 bg-[#e6e6e6] transition-all duration-500 ltr:-right-full rtl:-left-full dark:bg-gray-dark sm2:static sm2:h-auto sm2:max-w-none sm2:bg-transparent  dark:sm2:bg-transparent;
   }
   header .menus > ul {
-    @apply relative flex md:px-[12px] md:py-[16px]  flex-col divide-y divide-gray/10  font-bold text-black  lg:flex-row lg:justify-end lg:items-center lg:gap-1 lg:divide-y-0  lg:p-0 lg:text-black;
+    @apply relative flex sm2:px-[12px] sm2:py-[16px]  flex-col divide-y divide-gray/10  font-bold text-black  sm2:flex-row sm2:justify-end sm2:items-center sm2:gap-1 sm2:divide-y-0  sm2:p-0 sm2:text-black;
   }
   header .menus > ul li > a {
-    @apply flex items-center md:hover:py-[8px] md:hover:px-[8px]  md:hover:text-secondary md:px-[8px] md:py-[8px] justify-items-start px-3 py-4  md:hover:bg-[#FFEA8A] hover:md:p-3 hover:text-secondary md:rounded-3xl  md:hover:rounded-3xl  ;
+    @apply flex items-center sm2:hover:py-[8px] sm2:hover:px-[8px]  sm2:hover:text-secondary sm2:px-[8px] md:py-[8px] justify-items-start px-3 py-4  sm2:hover:bg-[#FFEA8A] hover:md:p-3 hover:text-secondary sm2:rounded-3xl  sm2:hover:rounded-3xl  ;
   }
   header .menus > ul li > a.active {
-    @apply text-white lg:px-2 lg:py-2  lg:rounded-3xl lg:bg-[#FFE25C]  md:hover:text-secondary lg:scale-100;
+    @apply text-white sm2:px-2 lg:py-2  sm2:rounded-3xl sm2:bg-[#FFE25C]  sm2:hover:text-secondary sm2:scale-100;
   }
   header .menus .submenu {
-    @apply invisible z-50 mt-5 md:mt-1  md:px-[0px] md:py-[0px] hidden grid-cols-1 gap-x-4 rounded-lg py-3 text-sm font-medium text-black opacity-0  dark:text-white lg:absolute lg:left-1/2 lg:top-full lg:grid lg:min-w-[231px] lg:-translate-x-1/3 lg:grid-rows-1 lg:bg-[#F0F4F7]  lg:dark:bg-gray-dark ;
+    @apply invisible z-50 mt-5 sm2:mt-1  sm2:px-[0px] sm2:py-[0px] hidden grid-cols-1 gap-x-4 rounded-lg py-3 text-sm font-medium text-black opacity-0  dark:text-white sm2:absolute sm2:left-1/2 sm2:top-full sm2:grid sm2:min-w-[231px] sm2:-translate-x-1/3 sm2:grid-rows-1 sm2:bg-[#F0F4F7]  sm2:dark:bg-gray-dark ;
   }
   .submenu {
-    @apply md:border-2 md:border-black md:px-[0px] md:py-[0px]  group-hover:visible group-hover:mt-0 group-hover:grid group-hover:opacity-100;
+    @apply sm2:border-2 sm2:border-black sm2:px-[0px] sm2:py-[0px]  group-hover:visible group-hover:mt-0 group-hover:grid group-hover:opacity-100;
   }
   header .menus .submenu a {
-    @apply block px-8 py-2.5 md:px-[12px] md:py-[12px] hover:text-secondary  ;
+    @apply block px-8 py-2.5 sm2:px-[12px] sm2:py-[12px] hover:text-secondary  ;
   }
   header .menus .submenu a.active {
     @apply text-secondary ;
